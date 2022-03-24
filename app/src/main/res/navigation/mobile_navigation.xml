@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/informes_enviados">
+
+    <fragment
+        android:id="@+id/informes_enviados"
+        android:name="com.example.appinformes.ui.pendientes.PendientesFragment"
+        android:label="Informes pendientes"
+        tools:layout="@layout/fragment_pendientes" />
+
+    <fragment
+        android:id="@+id/informes_pendientes"
+        android:name="com.example.appinformes.ui.enviados.EnviadosFragment"
+        android:label="Informes enviados"
+        tools:layout="@layout/fragment_enviados" />
+
+</navigation>

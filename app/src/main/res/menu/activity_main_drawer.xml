@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/informes_enviados"
+            android:icon="@drawable/carpeta"
+            android:title="Informes pendientes" />
+        <item
+            android:id="@+id/informes_pendientes"
+            android:icon="@drawable/carpeta"
+            android:title="Informes enviados" />
+    </group>
+</menu>
