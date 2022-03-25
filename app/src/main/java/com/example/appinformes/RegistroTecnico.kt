@@ -4,17 +4,15 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import androidx.core.view.isNotEmpty
-import com.example.appinformes.databinding.ActivityRegistroBinding
+import com.example.appinformes.databinding.ActivityRegistroTecnicoBinding
 import com.google.android.material.snackbar.Snackbar
-import java.util.*
 
-class Registro : AppCompatActivity() {
-    private lateinit var binding: ActivityRegistroBinding
+class RegistroTecnico : AppCompatActivity() {
+    private lateinit var binding: ActivityRegistroTecnicoBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityRegistroBinding.inflate(layoutInflater)
+        binding = ActivityRegistroTecnicoBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.botonRegistrarse.setOnClickListener{

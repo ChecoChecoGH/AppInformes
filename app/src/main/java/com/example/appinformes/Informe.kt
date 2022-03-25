@@ -15,10 +15,9 @@ Informe:
 
 data class Informe (
     @SerializedName("calle") var calle: String,
-    @SerializedName("pendiente") var pendiente: Boolean,
-    @SerializedName("idTecnico") var dni: String?,
-    @SerializedName("detallesInforme") var detalles: ArrayList<Detalles>?,
-    @SerializedName("fechaEnvio") var fechaEnvio: Date?
+    @SerializedName("idTecnico") var dni: String,
+    @SerializedName("detallesInforme") var detalles: ArrayList<Detalles>,
+    @SerializedName("fechaEnvio") var fechaEnvio: Date
     ){
     override fun toString(): String {
         return calle

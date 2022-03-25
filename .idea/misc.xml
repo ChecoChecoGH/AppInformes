@@ -7,9 +7,14 @@
         <entry key="app/src/main/res/drawable/ic_menu_gallery.xml" value="0.2225" />
         <entry key="app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.2225" />
         <entry key="app/src/main/res/drawable/side_nav_bar.xml" value="0.2305" />
+        <entry key="app/src/main/res/drawable/splash_screen.xml" value="0.1035" />
+        <entry key="app/src/main/res/drawable/splashscreen.xml" value="0.1755" />
         <entry key="app/src/main/res/layout/activity_informe.xml" value="0.27563025210084036" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.21787709497206703" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_registro.xml" value="0.2694063926940639" />
+        <entry key="app/src/main/res/layout/activity_registro_cliente.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_registro_tecnico.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.10989583333333333" />
         <entry key="app/src/main/res/layout/app_bar_informe.xml" value="0.25226449275362317" />
         <entry key="app/src/main/res/layout/content_informe.xml" value="0.4036458333333333" />
         <entry key="app/src/main/res/layout/fragment_enviados.xml" value="0.4036458333333333" />

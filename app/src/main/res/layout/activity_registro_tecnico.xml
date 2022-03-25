@@ -8,7 +8,7 @@
     android:layout_gravity="center"
     android:background="@drawable/fondo"
     android:paddingTop="40dp"
-    tools:context=".Registro">
+    tools:context=".RegistroTecnico">
 
     <ImageView
         android:id="@+id/logo"
@@ -44,7 +44,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
-
+                android:background="#90FFFFFF"
                 android:hint="Nombre:"
                 android:textColorHint="@color/black"
                 android:textSize="18sp"
@@ -73,7 +73,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
 
-
+                android:background="#90FFFFFF"
                 android:hint="Apellidos:"
                 android:textColorHint="@color/black"
                 android:textSize="18sp"
@@ -96,7 +96,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
 
-
+                android:background="#90FFFFFF"
                 android:hint="DNI/CIF/NIF:"
                 android:textColorHint="@color/black"
                 android:textSize="18sp"
@@ -119,7 +119,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
 
-
+                android:background="#90FFFFFF"
                 android:hint="Colegio:"
                 android:textColorHint="@color/black"
                 android:textSize="18sp"
@@ -142,7 +142,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
 
-
+                android:background="#90FFFFFF"
                 android:hint="Número colegiado:"
                 android:textColorHint="@color/black"
                 android:textSize="18sp"
@@ -166,7 +166,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
 
-
+                android:background="#90FFFFFF"
                 android:hint="Correo:"
                 android:textColorHint="@color/black"
                 android:textSize="18sp"
@@ -189,6 +189,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
 
+                android:background="#90FFFFFF"
                 android:hint="Teléfono:"
                 android:textColorHint="@color/black"
                 android:textSize="18sp"
@@ -212,6 +213,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
 
+                android:background="#90FFFFFF"
                 android:hint="Nueva contraseña:"
                 android:textColorHint="@color/black"
                 android:textSize="18sp"
@@ -236,6 +238,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
 
+                android:background="#90FFFFFF"
                 android:hint="Repetir contraseña:"
                 android:textColorHint="@color/black"
                 android:textSize="18sp"

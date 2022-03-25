@@ -8,14 +8,20 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppInformes">
+        android:theme="@style/Theme.AppInformes.NoActionBar">
+
+
+
+        <activity
+            android:name=".RegistroCliente"
+            android:exported="false" />
         <activity
             android:name=".InformeActivity"
             android:exported="false"
             android:label="@string/title_activity_informe"
             android:theme="@style/Theme.AppInformes.NoActionBar" />
         <activity
-            android:name=".Registro"
+            android:name=".RegistroTecnico"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
@@ -28,6 +34,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>

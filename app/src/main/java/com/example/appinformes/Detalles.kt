@@ -1,3 +1,3 @@
 package com.example.appinformes
 
-data class Detalles ()
+data class Detalles (var prepu:String)
